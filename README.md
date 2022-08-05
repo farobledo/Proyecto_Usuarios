@@ -1,3 +1,10 @@
+![image](https://user-images.githubusercontent.com/83982603/183107708-b4975dde-6743-4c89-90e0-50e77911472e.png)
+![image](https://user-images.githubusercontent.com/83982603/183107881-11867aa1-364f-40c3-bbc9-df2d6f8a5a5b.png)
+![image](https://user-images.githubusercontent.com/83982603/183107955-5371d412-7f19-4a62-b7c6-ae0540d71336.png)
+![image](https://user-images.githubusercontent.com/83982603/183108119-970c0531-a9f7-42a7-a925-8e19524bb008.png)
+![image](https://user-images.githubusercontent.com/83982603/183108218-557070d9-7ee0-4054-839d-d973f0c0c76c.png)
+
+
 Prueba de capacidades técnicas
 para Desarrollo Frontend
 
