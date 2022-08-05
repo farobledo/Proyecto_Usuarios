@@ -1,0 +1,45 @@
+/* que sea responsivo en todos los dispositivos */
+@media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 10%;
+        width: 100%;
+
+
+    }
+}
+
+body{
+    background-image: url("../img/blue.jpg");
+    background-size: cover;
+}
+
+/* form-group */
+
+.form-group {
+    margin-bottom: 10px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.btn {
+    /* vamos centrar el boton en el formulario */
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 40%;
+
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: rgb(0, 0, 252);
+    padding: 10px;
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.text {
+    color: rgb(13, 0, 255);
+    text-align: center;
+    margin-top: 5rem;
+}

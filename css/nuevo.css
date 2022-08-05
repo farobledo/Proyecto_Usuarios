@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+    .container {
+        font-size: 1.5em;
+    }
+}
+    
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5rem;
+}
+.btn{
+    background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: rgb(0, 0, 0);
+}
+.btn1 {
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+   
+}
+
+label {
+    color: rgb(14, 77, 251);
+    
+}
