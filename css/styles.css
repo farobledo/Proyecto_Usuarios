@@ -9,7 +9,8 @@
 }
 
 body{
-    background-image: url("../img/blue.jpg");
+    background-image: url("../img/teclado-e1575508114584-800x400.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 

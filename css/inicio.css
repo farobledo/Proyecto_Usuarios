@@ -1,4 +1,80 @@
 @media screen and (max-width: 480px) {
+<<<<<<< HEAD
+  .container {
+    width: 100%;
+  }
+}
+
+.tablinks {
+  background-color: #00f7d2;
+  border-radius: 100rem;
+  color: black;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+
+}
+
+.tablinks:hover {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: rgb(0, 0, 0);
+}
+
+.fa {
+  
+  color: #002aff;
+  font-size: 1.9rem;
+  margin: 0.5rem;
+  color: rgb(0, 13, 253);
+}
+
+.fa:hover {
+  /* quede un giro de 360 grados en el icono de facebook al pasar el mouse por encima */
+  transform: rotate(360deg);
+  transition: all 0.3s ease 0s;
+  color: #000;
+}
+
+h3 {
+  color: #001997;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #000000;
+  text-align: center;
+
+}
+
+h4{
+  color: #0800fc;
+  margin-left: 10%;
+}
+
+.img1 {
+  width: 90%;
+  height: 10erm;
+  margin: 0.5rem;
+  border-radius: 10%;
+  box-shadow: rgba(249, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease 0s;
+
+}
+
+.img1:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+=======
     .container {
         width: 100%;
     }
@@ -60,9 +136,73 @@ html {
 .responsive {
     width: 100%;
     height: 60%;
+>>>>>>> 3fc9fbd4ce637a2b3cb1a75c3ee9627cd8a1bf8b
 
+img{
+  width: 10%;
+  height: 10%;
 }
 
+<<<<<<< HEAD
+img:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+h2{
+  color: #001997;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn{
+  /* centramos el boton */
+  margin-left: 40%;
+  justify-content: center;
+  background-image: linear-gradient(120deg, #00f85b 0%, #02a4f5 100%);
+  border-radius: 100rem;
+  color: black;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
+ 
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover{
+  background-image: linear-gradient(120deg, #00e1ff 0%, #00f57b 100%);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+=======
 h3 {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -87,19 +227,47 @@ p{
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
+>>>>>>> 3fc9fbd4ce637a2b3cb1a75c3ee9627cd8a1bf8b
 }
 
-/* Set a specific color for each brand */
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
 
+<<<<<<< HEAD
+=======
 /* Facebook */
 .fa-linkedin {
 
     color: rgb(0, 30, 255);
+>>>>>>> 3fc9fbd4ce637a2b3cb1a75c3ee9627cd8a1bf8b
 }
 
-/* Twitter */
-.fa-github {
+/* Fake image */
+.fakeimg {
+  background-color: rgb(122, 122, 122);
+  width: 100%;
+  padding: 20px;
+}
 
+<<<<<<< HEAD
+/* Add a card effect for articles */
+.card {
+  border: none;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+=======
     color: rgb(0, 72, 255);
 }
 
@@ -114,9 +282,28 @@ p{
     cursor: pointer;
     font-size: 17px;
     margin-left: 20%;
+>>>>>>> 3fc9fbd4ce637a2b3cb1a75c3ee9627cd8a1bf8b
 
+/* Footer */
+.footer {
+  padding: 20px;
+  margin-left: 16%;
+  margin-top: -8%;
+  
+  color: rgb(0, 57, 244);
 }
 
+<<<<<<< HEAD
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+=======
 .btn:hover {
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     color: rgb(0, 0, 0);
@@ -218,3 +405,4 @@ p{
   to {opacity: 1}
 }
 
+>>>>>>> 3fc9fbd4ce637a2b3cb1a75c3ee9627cd8a1bf8b

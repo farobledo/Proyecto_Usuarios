@@ -6,7 +6,7 @@
 // Especificaciones de diseño:
 // (https://jsonplaceholder.typicode.com/users)
 
- 
+
 var url = "https://jsonplaceholder.typicode.com/users";
 var user = new XMLHttpRequest();
 user.open("GET", url, true);
@@ -36,25 +36,18 @@ user.onreadystatechange = function () {
       tr.appendChild(td4);
       tr.appendChild(td5);
       tr.appendChild(td6);
-    
-      
-        var button = document.createElement("button");
-        button.innerHTML = "View todos";
-        button.setAttribute("class", "btn btn-primary");
-        button.setAttribute("onclick", "view(" + data[i].id + ")");
-        tr.appendChild(button);
-        tabla.appendChild(tr);
-        }
-        }
-        }
-        function view(id) {
-            window.location.href = "../views/crear.html";
-            }
 
 
+      var button = document.createElement("button");
+      button.innerHTML = "View todos";
+      button.setAttribute("class", "btn btn-warning");
+      button.setAttribute("onclick", "view(" + data[i].id + ")");
+      tr.appendChild(button);
+      tabla.appendChild(tr);
+    }
+  }
+}
 
-
-
-
-
-    
+function view(id) {
+  window.location.href = "../views/crear.html";
+}

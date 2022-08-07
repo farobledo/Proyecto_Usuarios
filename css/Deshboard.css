@@ -5,14 +5,24 @@
 }
 
 h1 {
+    font-size: 3em;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 5rem;
+    
 }
 
 body {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+ 
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 th {
     color: blue;
@@ -21,7 +31,7 @@ th {
 .btn1 {
     /* vamos centrar el boton en el formulario */
 
-    width: 10%;
+    width: 20%;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     color: rgb(0, 21, 249);
     border-radius: 10rem;
@@ -35,12 +45,17 @@ th {
     padding: 2px;
 }
 
-img {
-    margin-left: 50rem;
-    width: 30%;
+.avatar1 {
+    width: 50%;
     border-radius: 50%;
-    
 }
+
+.avatar1:hover {
+    transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+
 
 .card-body {
     margin-left: 20rem;
@@ -48,9 +63,10 @@ img {
 
 .avatar {
     vertical-align: middle;
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    margin-left: 50rem;
 }
 
 /* The Overlay (background) */
@@ -116,7 +132,7 @@ img {
 
 .nav {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    width: 132px;
+    width: 180px;
     color: rgb(0, 21, 249);
     border-radius: 10rem;
     padding: 2px;
@@ -150,4 +166,8 @@ img {
         top: 15px;
         right: 35px;
     }
+}
+
+.container {
+    font-size: 1.3em;
 }

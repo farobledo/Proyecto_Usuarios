@@ -10,41 +10,44 @@ var crear = function(){
     //le pedimos que nos mande una peticion post al servidor
     xhr.send(JSON.stringify({
         //le pedimos que nos mande una peticion post al servidor
-        name: 'Juan',
+        name: '',
         //le pedimos que nos mande una peticion post al servidor
-        username: 'juan',
+        username: '',
         //le pedimos que nos mande una peticion post al servidor
-        email: 'juan@gmail.com',
+        email: '',
         //le pedimos que nos mande una peticion post al servidor
         address: {
             //le pedimos que nos mande una peticion post al servidor
-            street: 'calle falsa',
+            street: '',
             //le pedimos que nos mande una peticion post al servidor
-            suite: 'casa falsa',
+            suite: '',
             //le pedimos que nos mande una peticion post al servidor
-            city: 'ciudad falsa',
+            city: '',
             //le pedimos que nos mande una peticion post al servidor
-            zipcode: '00000',
+            zipcode: '',
             //le pedimos que nos mande una peticion post al servidor
             geo: {
                 //le pedimos que nos mande una peticion post al servidor
-                lat: '0.0',
+                lat: '',
                 //le pedimos que nos mande una peticion post al servidor
-                lng: '0.0'
+                lng: ''
             }
         },
         //le pedimos que nos mande una peticion post al servidor
-        phone: '0000000000',
+        phone: '',
         //le pedimos que nos mande una peticion post al servidor
-        website: 'www.google.com',
+        website: '',
         //le pedimos que nos mande una peticion post al servidor
         company: {
             //le pedimos que nos mande una peticion post al servidor
-            name: 'Google',
+            name: '',
             //le pedimos que nos mande una peticion post al servidor
-            catchPhrase: 'Google',
+            catchPhrase: '',
             //le pedimos que nos mande una peticion post al servidor
-            bs: 'Google'
+            bs: ''
+           
         }
+        
     }));
+    alert('usuario creado');
 }
